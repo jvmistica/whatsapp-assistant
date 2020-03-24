@@ -32,9 +32,11 @@ def insert_record(table_name, **properties):
 
     try:
         with db.connect() as conn:
-            conn.execute(query)
+            return conn.execute(query)
     except exc.IntegrityError:
         raise Exception(f"Record {values[0]} already exists.")
+    except exc.DataError:
+        raise Exception("Text is too long.")
 
 
 def update_record(table_name, **properties):
