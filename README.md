@@ -19,11 +19,11 @@ Delete note: \<Note title>\
 Edit note: \<Note title> -> \<New content>
 
 ### Items
-New note: \<Message>\
-Delete note: \<Note title>\
-Edit note: \<Note title> -> \<New content>
+New item: \<Item name>\
+Delete item: \<Item name>\
+Edit item: \<Item name> -> \<New item name>
 
 ### Recipes
-New note: \<Message>\
-Delete note: \<Note title>\
-Edit note: \<Note title> -> \<New content>
+New recipe: \<Recipe name>; <Recipe Ingredients>\
+Delete recipe: \<Recipe name>\
+Edit recipe: \<Recipe name> -> \<New recipe ingredients>
