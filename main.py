@@ -4,7 +4,7 @@ import random
 from datetime import datetime, timezone
 from flask import Flask, request, redirect
 from twilio.twiml.messaging_response import MessagingResponse
-from cloud_sql import search_table, insert_record, show_record, update_record, delete_record
+from modules.cloud_sql import search_table, insert_record, show_record, update_record, delete_record
 
 
 app = Flask(__name__)

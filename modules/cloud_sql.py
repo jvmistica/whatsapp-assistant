@@ -1,6 +1,6 @@
 import sqlalchemy
 from sqlalchemy import exc
-from config import DB_USER, DB_PASS, DB_NAME, CLOUD_SQL_CONNECTION_NAME
+from modules.config import DB_USER, DB_PASS, DB_NAME, CLOUD_SQL_CONNECTION_NAME
 
 
 db = sqlalchemy.create_engine(
