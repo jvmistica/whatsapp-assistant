@@ -2,7 +2,20 @@
 
 A WhatsApp contact that assists you in taking down notes, recipes, and managing inventory items. This was initially created to minimize food waste by asking it, "What can I make?" It will return a list of recipes for food that you can make based on the items you currently have.
 
+## Getting Started
+
+Install the required modules:
+```
+pip install -r requirements.txt
+```
+
+Deploy to Google App Engine:
+```
+gcloud app deploy
+```
+
 ## Commands
+
 ### Show a list of records
 Show notes.\
 Show items.\
