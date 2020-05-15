@@ -7,8 +7,8 @@ A WhatsApp contact that assists you in taking down notes, recipes, and managing 
 Install the required modules:
 ```
 pip install -r requirements.txt
-```
-\
+```  
+
 Setup the database:
 1. **Create an SQL instance** by logging into Google Cloud Platform and navigating to Storage > SQL.
 2. Click "Create Instance" > "Choose MySQL" and fill up the details for the instance.
@@ -20,8 +20,8 @@ DB_USER="db_user"
 DB_PASS="db_pass"
 DB_NAME="db_name"
 CLOUD_SQL_CONNECTION_NAME="sql_conn_name"
-```
-\
+```  
+
 Deploy to Google App Engine:
 ```
 gcloud app deploy
@@ -30,26 +30,26 @@ gcloud app deploy
 ## Commands
 
 ### Show a list of records
-Show notes.\
-Show items.\
+Show notes.  
+Show items.  
 Show recipes.
 
 ### Show a specific record
-Show note: \<Note title>\
-Show item: \<Item name>\
-Show recipe: \<Recipe name>
+Show note: &lt;Note title&gt;  
+Show item: &lt;Item name&gt;  
+Show recipe: &lt;Recipe name&gt;
 
 ### Notes
-New note: \<Message>\
-Delete note: \<Note title>\
-Edit note: \<Note title> -> \<New content>
+New note: &lt;Message&gt;  
+Delete note: &lt;Note title&gt;  
+Edit note: &lt;Note title&gt; -> &lt;New content&gt;
 
 ### Items
-New item: \<Item name>\
-Delete item: \<Item name>\
-Edit item: \<Item name> -> \<New item name>
+New item: &lt;Item name&gt;  
+Delete item: &lt;Item name&gt;  
+Edit item: &lt;Item name&gt; -> &lt;New item name&gt;
 
 ### Recipes
-New recipe: \<Recipe name>; <Recipe Ingredients>\
-Delete recipe: \<Recipe name>\
-Edit recipe: \<Recipe name> -> \<New recipe ingredients>
+New recipe: &lt;Recipe name&gt;; &lt;Recipe ingredients&gt;  
+Delete recipe: &lt;Recipe name&gt;  
+Edit recipe: &lt;Recipe name&gt; -> &lt;New recipe ingredients&gt;
